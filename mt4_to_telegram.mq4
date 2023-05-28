@@ -10,11 +10,13 @@
 
 #include <send_telegram_messages.mqh>
 string TELEGRAM_API_URL = "https://api.telegram.org";
+
+// This should be your own telegram data. Read through the README.md to see how to find.
 string TELEGRAM_TOKEN = "";
 string TELEGRAM_CHAT = "";
 const int UrlDefinedError = 4066;
 
-
+// I like to use this wrapper method to make future messages as clean as possible.
 void telegramMsg(string message, string fileName = ""){
    SendMessage(TELEGRAM_API_URL, TELEGRAM_TOKEN, TELEGRAM_CHAT, message, fileName);
 }
