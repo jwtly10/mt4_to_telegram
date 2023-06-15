@@ -29,9 +29,6 @@ You can use this wrapper to make sending telegram messages cleaner. The follow a
 TELEGRAM_API_URL = "https://api.telegram.org";
 TELEGRAM_TOKEN : https://www.youtube.com/watch?v=bgFAgZCP7yQ&ab_channel=Dignited
 TELEGRAM_CHAT : https://github.com/GabrielRF/telegram-id#app-channel-id
-## Help
-
-This is a fairly simple Library, any issues please consult the 'Expert' log tab before raising issue.
 
 ## Version History
 
